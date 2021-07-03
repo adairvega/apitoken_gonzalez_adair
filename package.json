@@ -1,0 +1,34 @@
+{
+  "name": "apitoken_gonzalez_adair",
+  "version": "1.0.0",
+  "description": "Desarrollo Web Integral API + AUTHENTICATION & AUTHORIZATION",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "init": "^0.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.7",
+    "nodemon": "^2.0.9"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node",
+    "build": "babel src --out-dir build",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "Adair Emanuel Gonzalez Vega - 20173ti130@utez.edu.mx",
+  "license": "ISC"
+}
